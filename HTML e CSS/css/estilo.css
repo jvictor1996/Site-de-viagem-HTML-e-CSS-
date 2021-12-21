@@ -1,0 +1,222 @@
+body, ul, li, a, div, section, p{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	font-size: 1.2rem;
+	list-style: none;
+}
+body, html{
+	height: 100%;
+}
+body{
+	background: #F5FFFA;
+}
+img{
+	width: 100%;
+	display: block;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+/* Menu de navegação */
+.header a img{
+	width: 20%;
+	height: 20%;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	flex-wrap: wrap;
+	background: #008080;
+}
+
+.menu{
+	display: flex;
+}
+.menu li{
+	margin-left: 10px;
+}
+.menu li a{
+	display: block;
+	padding: 10px;
+	color: white;
+}
+.menu li a:hover{
+	box-shadow: 0 12px 16px 0 rgba(255,255,255,0.24), 0 17px 50px 0 rgba(255,255,255,0.19);
+	border-radius: 12px;
+	background: rgba(255,255,255,0.5);
+	color: white;
+}
+
+/* Banner do site */
+
+.banner img{
+	margin-bottom: 20px;
+	height: 50%;
+  	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+div > div > h1{
+	font-size: 50px;
+}
+/*Conteudo Principa*/
+body section{
+	width: 90%;
+	margin: 0 auto;
+}
+hr{
+	border: 10px solid green;
+  	border-radius: 5px;
+}
+
+.promocoes{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 10px;
+	grid-gap: 10px;
+	margin: 10px auto;
+
+}
+.depoimento{
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	border-left: 1px solid gray;
+  	height: 300px;
+  	padding: 10px;
+}
+.cont{
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.formulario{
+	background: lightgray;
+	padding: 20px;
+	grid-column: 1 / 3;
+	margin: 10px;
+}
+
+.form{
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+}
+.contato{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.card img{
+	max-width: 400px;
+	max-height: 200px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+/*Footer site*/
+footer{
+	background: #008080;
+}
+footer > div > p{
+	color: white;
+	text-align: center;
+}
+footer > div > div {
+	text-align: center;
+	margin-top: 10px;
+}
+footer > div > div > a > img{
+	margin: 10px;
+	width: 24px;
+	height: 24px;
+	display: inline-block; 
+}
